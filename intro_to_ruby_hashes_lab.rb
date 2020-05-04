@@ -1,6 +1,6 @@
 def base_hash
   monopoly = Hash.new 
-  monopoly[:railroads] = []
+  monopoly[:railroads] = {}
   monopoly
 end
 
